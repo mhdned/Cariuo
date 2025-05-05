@@ -11,7 +11,7 @@
             ?>
         </h1>
 
-        <?php echo ($message['error']) ? ' ' : '<a class="col-lg-4 text-center btn btn-primary m-2" href="http://localhost/foxsweeper/user/playGame" >Play</a>' ;
+        <?php echo ($message['error']) ? ' ' : '<a class="col-lg-4 text-center btn btn-primary m-2" href="http://localhost:81/cariuo/user/playGame" >Play</a>' ;
 
         ?>
         

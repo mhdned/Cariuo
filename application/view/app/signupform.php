@@ -10,7 +10,7 @@
             <h3>
                 <?php ?>
             </h3>
-            <form action="http://localhost/foxsweeper/user/authSignUp" method="post" enctype="multipart/form-data"
+            <form action="http://localhost:81/cariuo/user/authSignUp" method="post" enctype="multipart/form-data"
             class="form-group col-lg-6 d-flex flex-column 
             justify-content-center align-items-center"
             >

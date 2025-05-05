@@ -11,7 +11,7 @@ public function autoloader(){
 
       $className = str_replace("\\" , DIRECTORY_SEPARATOR , $className);
 
-      include_once $_SERVER['DOCUMENT_ROOT'] . '/foxsweeper/' . $className . '.php';
+      include_once $_SERVER['DOCUMENT_ROOT'] . '/cariuo/' . $className . '.php';
 
     });
 }

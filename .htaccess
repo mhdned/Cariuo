@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)$ foxsweeper/index.php [QSA,L]
+RewriteRule ^(.+)$ cariuo/index.php [QSA,L]
 
 
 RewriteEngine on

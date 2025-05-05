@@ -1,3 +1,3 @@
 <?php
 
-include('system/bootstrap/boot.php');
+include('./system/bootstrap/boot.php');

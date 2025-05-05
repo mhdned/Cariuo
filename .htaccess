@@ -1,0 +1,12 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ foxsweeper/index.php [QSA,L]
+
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} !/public/* [NC]
+RewriteCond %{THE_REQUEST} /(application|system|view)/.+ [NC]
+RewriteRule ^ - [R=403,L]
+
